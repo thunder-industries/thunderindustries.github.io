@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    color: gold;
+    display: flex;
+    height: 6rem;
+    width: 100vw;
+    background:linear-gradient(to right, black, blue) ;
+}
+
+h1{
+    font-size: 3rem;
+
+
+}
+p{
+    font-size: 1.5rem;
+    color: aqua;
+}
+.content{
+    display: flex;
+}
+.side{
+    width: 6rem;
+    height: 35rem;
+    background: linear-gradient(to bottom, black, blue);
+}
+
+.content1{
+    background: linear-gradient(to bottom, aqua, white);
+    width: 96vw;
+    height: 35rem;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+   
+}
+li{
+    height: 10rem;
+    width: 8rem;
+    background: linear-gradient(to right,navy,blue,white);
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 50px;   
+}
+
+a{
+    color: gold;
+    text-decoration: none;
+}
+a:hover{
+    transition-duration: 1.5s;
+    color: aqua;
+}
+
+footer{
+    height: 4rem;
+    width: 100vw;
+    color: aqua;
+    background-color: blue;
+    text-align: end;
+}
